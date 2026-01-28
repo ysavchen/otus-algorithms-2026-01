@@ -1,0 +1,1 @@
+rootProject.name = "otus-algorithms-2026-01"
