@@ -1,6 +1,8 @@
 package org.example.algorithms.hw_l01_cycles_and_recursion;
 
-public class Main {
+import static java.lang.System.lineSeparator;
+
+public class Square01 {
 
     public static void main(String[] args) {
         int n = 25;
@@ -9,7 +11,7 @@ public class Main {
                 var result = x > y ? "#" : ".";
                 System.out.print(result);
             }
-            System.out.print("\n");
+            System.out.print(lineSeparator());
         }
     }
 }
