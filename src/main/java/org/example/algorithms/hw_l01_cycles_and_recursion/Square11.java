@@ -8,9 +8,8 @@ public class Square11 {
         int n = 25;
         for (int y = 0; y < n; y++) {
             for (int x = 0; x < n; x++) {
-                var xCondition = x == 1 || x == 23;
-                var yCondition = y == 1 || y == 23;
-                var result = xCondition || yCondition ? "#" : ".";
+                var condition = x == 1 || x == 23 || y == 1 || y == 23;
+                var result = condition ? "#" : ".";
                 System.out.print(result);
             }
             System.out.print(lineSeparator());
